@@ -70,14 +70,14 @@ packet-tracer-networking-labs/
 
 ## Ordem dos laboratórios
 
-|Ordem|Laboratório|Conteúdo principal|
-|---|---|---|
-|01|[Configuração Básica de Switch](https://chatgpt.com/c/01-configuracao-basica-switch/)|Hostname, senhas, SVI, interfaces, comandos `show` e testes de conectividade|
-|02|[Roteamento Estático](https://chatgpt.com/c/02-roteamento-estatico/)|Configuração de roteadores, interfaces LAN/WAN, rotas estáticas e gateways|
-|03|[VLANs, Trunking e InterVLAN Routing](https://chatgpt.com/c/03-vlans-trunking-intervlan-routing/)|VLANs, portas access, trunk, Router-on-a-Stick e roteamento entre VLANs|
-|04|[STP e Redundância](https://chatgpt.com/c/04-stp-redundancia/)|Loops de camada 2, Root Bridge, portas bloqueadas, PortFast e BPDU Guard|
-|05|[EtherChannel](https://chatgpt.com/c/05-etherchannel/)|Agregação de links com LACP, PAgP e modo estático|
-|06|[OSPF - Roteamento Dinâmico](https://chatgpt.com/c/06-ospf-roteamento-dinamico/)|Configuração de OSPF, adjacências, rotas dinâmicas e verificação de convergência|
+| Ordem | Laboratório                                                                                                                                                                         | Conteúdo principal                                                               |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| 01    | [Configuração Básica de Switch](https://github.com/MagyoDev/packet-tracer-networking-labs/tree/main/01-configuracao-basica-switch)                                                  | Hostname, senhas, SVI, interfaces, comandos `show` e testes de conectividade     |
+| 02    | [Roteamento Estático](https://github.com/MagyoDev/packet-tracer-networking-labs/tree/main/02-roteamento-estatico)                                                                   | Configuração de roteadores, interfaces LAN/WAN, rotas estáticas e gateways       |
+| 03    | [VLANs, Trunking e InterVLAN Routing](https://github.com/MagyoDev/packet-tracer-networking-labs/tree/main/03-vlans-trunking-intervlan-routing)                                      | VLANs, portas access, trunk, Router-on-a-Stick e roteamento entre VLANs          |
+| 04    | [STP e Redundância](https://github.com/MagyoDev/packet-tracer-networking-labs/tree/main/04-stp-redundancia)                                                                         | Loops de camada 2, Root Bridge, portas bloqueadas, PortFast e BPDU Guard         |
+| 05    | [EtherChannel]([https://chatgpt.com/c/05-etherchannel/](https://github.com/MagyoDev/packet-tracer-networking-labs/tree/main/05-etherchannel))                                       | Agregação de links com LACP, PAgP e modo estático                                |
+| 06    | [OSPF - Roteamento Dinâmico]([https://chatgpt.com/c/06-ospf-roteamento-dinamico/](https://github.com/MagyoDev/packet-tracer-networking-labs/tree/main/06-ospf-roteamento-dinamico)) | Configuração de OSPF, adjacências, rotas dinâmicas e verificação de convergência |
 
 ---
 
