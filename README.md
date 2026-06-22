@@ -22,7 +22,6 @@ Cada laboratório contém:
 - Testes de conectividade
 - Comandos de verificação
 - Troubleshooting
-- Aprendizados obtidos
 
 ---
 
@@ -42,30 +41,29 @@ packet-tracer-networking-labs/
 │
 ├── README.md
 │
-├── labs/
-│   ├── 01-configuracao-basica-switch/
-│   │   ├── README.md
-│   │   └── lab-01-configuracao-basica-switch.pkt
-│   │
-│   ├── 02-roteamento-estatico/
-│   │   ├── README.md
-│   │   └── lab-02-roteamento-estatico.pkt
-│   │
-│   ├── 03-vlans-trunking-intervlan-routing/
-│   │   ├── README.md
-│   │   └── lab-03-vlans-trunking-intervlan-routing.pkt
-│   │
-│   ├── 04-stp-redundancia/
-│   │   ├── README.md
-│   │   └── lab-04-stp-redundancia.pkt
-│   │
-│   ├── 05-etherchannel/
-│   │   ├── README.md
-│   │   └── lab-05-etherchannel.pkt
-│   │
-│   └── 06-ospf-roteamento-dinamico/
-│       ├── README.md
-│       └── lab-06-ospf-roteamento-dinamico.pkt
+├── 01-configuracao-basica-switch/
+│   ├── README.md
+│   └── lab-01-configuracao-basica-switch.pkt
+│
+├── 02-roteamento-estatico/
+│   ├── README.md
+│   └── lab-02-roteamento-estatico.pkt
+│
+├── 03-vlans-trunking-intervlan-routing/
+│   ├── README.md
+│   └── lab-03-vlans-trunking-intervlan-routing.pkt
+│
+├── 04-stp-redundancia/
+│   ├── README.md
+│   └── lab-04-stp-redundancia.pkt
+│
+├── 05-etherchannel/
+│   ├── README.md
+│   └── lab-05-etherchannel.pkt
+│
+└── 06-ospf-roteamento-dinamico/
+    ├── README.md
+    └── lab-06-ospf-roteamento-dinamico.pkt
 ```
 
 ---
@@ -74,12 +72,12 @@ packet-tracer-networking-labs/
 
 |Ordem|Laboratório|Conteúdo principal|
 |---|---|---|
-|01|Configuração Básica de Switch|Hostname, senhas, SVI, interfaces, comandos `show` e testes de conectividade|
-|02|Roteamento Estático|Configuração de roteadores, interfaces LAN/WAN, rotas estáticas e gateways|
-|03|VLANs, Trunking e InterVLAN Routing|VLANs, portas access, trunk, Router-on-a-Stick e roteamento entre VLANs|
-|04|STP e Redundância|Loops de camada 2, Root Bridge, portas bloqueadas, PortFast e BPDU Guard|
-|05|EtherChannel|Agregação de links com LACP, PAgP e modo estático|
-|06|OSPF - Roteamento Dinâmico|Configuração de OSPF, adjacências, rotas dinâmicas e verificação de convergência|
+|01|[Configuração Básica de Switch](https://chatgpt.com/c/01-configuracao-basica-switch/)|Hostname, senhas, SVI, interfaces, comandos `show` e testes de conectividade|
+|02|[Roteamento Estático](https://chatgpt.com/c/02-roteamento-estatico/)|Configuração de roteadores, interfaces LAN/WAN, rotas estáticas e gateways|
+|03|[VLANs, Trunking e InterVLAN Routing](https://chatgpt.com/c/03-vlans-trunking-intervlan-routing/)|VLANs, portas access, trunk, Router-on-a-Stick e roteamento entre VLANs|
+|04|[STP e Redundância](https://chatgpt.com/c/04-stp-redundancia/)|Loops de camada 2, Root Bridge, portas bloqueadas, PortFast e BPDU Guard|
+|05|[EtherChannel](https://chatgpt.com/c/05-etherchannel/)|Agregação de links com LACP, PAgP e modo estático|
+|06|[OSPF - Roteamento Dinâmico](https://chatgpt.com/c/06-ospf-roteamento-dinamico/)|Configuração de OSPF, adjacências, rotas dinâmicas e verificação de convergência|
 
 ---
 
@@ -105,24 +103,25 @@ packet-tracer-networking-labs/
 
 ## Como utilizar
 
-1. Abra o laboratório desejado dentro da pasta `labs/`.
-2. Leia o `README.md` do laboratório.
-3. Abra o arquivo `.pkt` correspondente no Cisco Packet Tracer.
-4. Reproduza ou analise a configuração apresentada.
-5. Execute os testes de conectividade.
-6. Utilize os comandos de verificação para validar o funcionamento da rede.
+1. Escolha um laboratório na lista de laboratórios.
+2. Acesse a pasta correspondente.
+3. Leia o `README.md` do laboratório.
+4. Abra o arquivo `.pkt` no Cisco Packet Tracer.
+5. Analise ou reproduza a configuração apresentada.
+6. Execute os testes de conectividade.
+7. Utilize os comandos de verificação para validar o funcionamento da rede.
 
 ---
 
-## Exemplo de execução
+## Exemplo de uso
 
 Para acessar o primeiro laboratório:
 
 ```text
-labs/01-configuracao-basica-switch/
+01-configuracao-basica-switch/
 ```
 
-Dentro da pasta, estarão disponíveis:
+Dentro da pasta, estão disponíveis:
 
 ```text
 README.md
@@ -146,6 +145,3 @@ A proposta é transformar laboratórios técnicos em documentação clara, organ
 Este projeto não possui vínculo oficial com a Cisco, instituições de ensino ou empresas.
 
 Os laboratórios foram desenvolvidos para fins educacionais, utilizando o Cisco Packet Tracer como ambiente de simulação.
-
----
-
